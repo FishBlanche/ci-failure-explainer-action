@@ -1,0 +1,20 @@
+name: "CI Failure Explainer"
+description: "Explain failed GitHub Actions logs using AI"
+
+inputs:
+  github-token:
+    description: "GitHub token"
+    required: true
+
+  openai-api-key:
+    description: "OpenAI API key"
+    required: true
+
+  max-log-lines:
+    description: "Maximum log lines to analyze"
+    required: false
+    default: "300"
+
+runs:
+  using: "node20"
+  main: "dist/index.js"
