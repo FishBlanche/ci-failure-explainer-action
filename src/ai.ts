@@ -1,5 +1,4 @@
 import OpenAI from "openai";
-
 export async function analyzeFailure(openaiApiKey: string, log: string): Promise<string> {
   const client = new OpenAI({
     apiKey: openaiApiKey,
@@ -10,7 +9,7 @@ You are a senior DevOps engineer.
 
 Analyze this GitHub Actions CI failure log.
 
-Return the result in this markdown format:
+Return the result in  markdown format:
 
 ## CI Failure Analysis
 

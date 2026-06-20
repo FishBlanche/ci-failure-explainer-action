@@ -21,7 +21,7 @@ You are a senior DevOps engineer.
 
 Analyze this GitHub Actions CI failure log.
 
-Return the result in this markdown format:
+Return the result in  markdown format:
 
 ## CI Failure Analysis
 
