@@ -66,7 +66,7 @@ jobs:
 
         if: steps.run_tests.outcome == 'failure'
 
-        uses: YOUR_USERNAME/ci-failure-explainer-action@v1
+        uses: FishBlanche/ci-failure-explainer-action@v1
 
         env:
           LOG_FILE_PATH: ci.log
